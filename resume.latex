@@ -1,0 +1,150 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[margin=0.5cm]{geometry}
+\usepackage[english]{babel}
+\usepackage{CJK}
+
+\usepackage[sc]{mathpazo}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+
+\usepackage{array, xcolor, hyperref}
+\hypersetup{
+    colorlinks,
+    linkcolor={red!50!black},
+    citecolor={blue!50!black},
+    urlcolor={blue!80!black}
+}
+\definecolor{lightgray}{gray}{0.8}
+\definecolor{blue}{rgb}{0.0, 0.7, 0.7}
+
+\newcolumntype{L}{>{\raggedleft}p{0.17\textwidth}}
+\newcolumntype{R}{p{0.75\textwidth}}
+
+\newcommand\VRule{\color{blue}\vrule width 0.4pt}
+\newcommand{\tabitem}{~~\small\llap{-}~~}
+
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancypagestyle{plain}
+\fancyhead{}
+\fancyfoot{}
+\fancyfoot[C]{\bf \Large \center References available upon request.}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\usepackage[compact]{titlesec}
+\titlespacing{\section}{0pt}{-6pt}{2pt}
+
+\begin{document}
+
+
+\begin{minipage}[ht]{0.38\textwidth\hspace{-8pt}}
+see github\\
+for contact information\\
+Work permit holder
+\end{minipage}
+\begin{minipage}[ht]{0.513\textwidth}
+\vspace{40pt}
+\bf \LARGE Laurent Erignoux
+\end{minipage}
+\begin{minipage}{0.2\textwidth}
+\vspace{0pt}
+\includegraphics[scale=0.11]{erignoux_li_qr_link.png}\\
+\small Linkedin
+\end{minipage}
+\\[10pt]
+\vspace{10pt}
+
+\section*{Experiences}
+\begin{tabular}{L!{\VRule}R}
+{\small Sept. 2019 -- Present }&{\textcolor{blue}{\textbf{Lead Software engineer} at Ubisoft, Shanghai}}\\
+&\tabitem Cross-project tools team creation (recruitment, coordination with the projects leads...).\\
+&\tabitem Lead developer and reviewer on key subjects on various tools and languages.\\
+&\tabitem Project management with local and worldwide teams.\\
+&\tabitem Team management {\tiny( CN, EN)}.\\
+&\tabitem Open (Inner) sourcing \& Agile advocate.
+\vspace{6px}
+\\
+{\small Oct. 2018 -- Sept. 2019 }&{\textbf{Tools developer} at Ubisoft, Shanghai}\\
+&\tabitem Main team developer on automation and tooling for multiple AAA projects.\\
+&\tabitem Projects management with local and worldwide teams (GD, QC and animation teams mainly).
+\vspace{6px}
+\\
+{\small Apr. 2017 -- Oct. 2018}&{\textbf{Game Designer} at Ubisoft, Shanghai}\\
+&\tabitem Responsible for design and setup of key features (Far Cry 5 companions and un-anounced projects)\\
+&\tabitem Development and design of production tools, quality control, and testing of designed features.
+\vspace{6px}
+\\
+{\small Dec. 2014 -- Mar. 2017}&{\textbf{Software engineer, Architect} at Optiflows, Paris}\\
+&\tabitem Full stack engineer \& architect (Python + Angular) on a mass alerting and notification cloud service\\
+&\tabitem Scrum master
+\vspace{6px}
+\\
+{\small Aug. 2012 -- Sep. 2014}&{\textbf{Software engineer} at Work4 , Paris}\\
+&\tabitem Matching algorithms integration for a facebook job-board\\
+&\tabitem Asynchronous system setup.
+\end{tabular}
+\\[20pt]
+
+
+\section*{Highlighted projects}
+\begin{tabular}{L!{\VRule}R}
+
+{\includegraphics[width=8pt]{images/python.png} Python, \includegraphics[width=8pt]{images/angular.png} Angular}&{\textbf{Production tools}}\\
+&\tabitem A dockerized set of services providing a streamlined animal production process\\
+&\tabitem Production planning, Automatic documentation ...\\
+{\includegraphics[width=9pt]{images/Csharp.png} C\#, \includegraphics[width=8pt]{images/cpp.png} C++, }&{\textbf{Automatic testing}}\\
+&\tabitem Multiple automatic testing solution for AAA games.\\
+&\tabitem Bug detection, recording \& reporting (small Emailing + ELK).\\
+{\includegraphics[width=8pt]{images/django.png} Django}&{\textbf{Thanks for the feedback} \small \url{tftf.eu}}\\
+&\tabitem Open source web service to gather personal feedback\\
+{see more}&{\includegraphics[width=8pt]{images/github.png} \url{https://github.com/lerignoux}}\\
+& python, git, agile, linux, docker, mongo, postgres, P4, elastic, Django, AWS, G-cloud, Atlassian, node-js, golang, security, networking ...
+\end{tabular}
+
+
+\begin{minipage}[ht]{0.49\textwidth}
+\vspace{-10pt}
+\section*{Education}
+
+\begin{tabular}{L!{\VRule}R}
+{2013}&{MongoDB Developer certification}\\[4pt]
+{2008-12}&{\textcolor{blue}{\textbf{Telecom Paristech} in Paris}}\\
+&\small Top French engineering school (Master degree)\\
+&\tabitem Information security\\
+&\tabitem Artificial intelligence\\[4pt]
+{2011-12}&{Shanghai JiaoTong university \begin{CJK}{UTF8}{gbsn}上海交通大学\end{CJK}}\\
+&\tabitem Information security\\[4pt]
+{2010-11}&{BLCU \begin{CJK}{UTF8}{gbsn}北京语言大学\end{CJK}}\\
+&\tabitem Chinese language\\[4pt]
+{2006-08}&{Preparatory class Janson De Sailly, Paris}\\
+&\tabitem Maths, Physics and IT (MPSI - MP**)\\[4pt]
+{2006}&{French Baccalaureate}\\
+&\small Mention Tres Bien (equivalent to A)\\
+\end{tabular}
+\end{minipage}
+\begin{minipage}[ht]{0.49\textwidth}
+\vspace{30pt}
+\section*{Languages}
+
+\begin{tabular}{L!{\VRule}R}
+{French}&Native speaker\\[4pt]
+{English}&Proficient (TOEFL)\\[4pt]
+{Chinese}&{Fluent (HSK 5)}\\[4pt]
+\end{tabular}
+\\[10pt]
+\section*{Misc.}
+\begin{tabular}{L!{\VRule}R}
+{Meetups}&{Various IT \small Meetups}\\
+&{Hackathons \& Game Jam}\\[4pt]
+{Assoc.}&{ParisTech Chinese association}\\
+&{IT School association: \small treasurer}\\
+&{Telecom Etude: \small Junior entreprise}\\[4pt]
+{Travels}&{2 years studies in China. NGO mission}\\[4pt]
+{Hobbies}&{Tennis, Jeet Kun Do, Piano, Gymnastic, Dance, Open Source, Travel, Video Games}\\
+\end{tabular}
+\end{minipage}
+\vspace{10pt}
+\center References available upon request.
+\end{document}

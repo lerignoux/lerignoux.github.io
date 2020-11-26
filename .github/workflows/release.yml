@@ -13,7 +13,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
       - name: Compile resume
-        run: sudo apt-get -qq update && sudo apt-get -qq install -y latex-cjk-all texlive-latex-recommended texlive-lang-french texlive-fonts-recommended texlive-generic-extra texlive-latex-extra && pdflatex resume.tex
+        run: sudo apt-get -qq update && sudo apt-get -qq install -y latex-cjk-all texlive-latex-recommended texlive-lang-french texlive-fonts-recommended texlive-generic-extra texlive-latex-extra && pdflatex resume.latex
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
