@@ -12,10 +12,12 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-      - name: install pgf-pie
-        run: cd /usr/share/texlive/texmf-dist/tex/latex/ && curl -L https://github.com/pgf-tikz/pgf-pie/releases/download/0.6/pgf-pie_0.6.tar.gz | tar zxv && mktexlsr
+      - name: Install latex dependencies
+        run: sudo apt-get -qq update && sudo apt-get -qq install -y latex-cjk-all texlive-latex-recommended texlive-lang-french texlive-fonts-recommended texlive-latex-extra
+      - name: Install pgf-pie
+        run: mkdir ~/texmf && cd ~/texmf && curl -L https://github.com/pgf-tikz/pgf-pie/releases/download/0.6/pgf-pie_0.6.tar.gz | tar zxv && mktexlsr
       - name: Compile resume
-        run: sudo apt-get -qq update && sudo apt-get -qq install -y latex-cjk-all texlive-latex-recommended texlive-lang-french texlive-fonts-recommended texlive-generic-extra texlive-latex-extra && pdflatex resume.latex
+        run: export TEXINPUTS="~/texmf//:" && pdflatex resume.latex
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
