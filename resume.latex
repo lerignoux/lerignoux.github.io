@@ -21,7 +21,7 @@
     urlcolor={blue!80!black}
 }
 \definecolor{blue}{rgb}{0.0, 0.7, 0.7}
-\definecolor{green}{HTML}{076336}
+\definecolor{green}{HTML}{078336}
 \definecolor{red}{HTML}{FE4A49}
 \definecolor{orange}{HTML}{DC602E}
 \definecolor{yellow}{HTML}{FFBF46}
@@ -60,38 +60,42 @@
 \includegraphics[scale=0.11]{erignoux_li_qr_link.png}\\
 \small Linkedin
 \end{minipage}
-\\[6pt]
+
+\vspace{6pt}
 
 \section*{Experiences}
 \begin{tabular}{L!{\VRule}R}
-{\small Sept. 2019 -- Present }&{\textcolor{blue}{\textbf{Lead Software engineer} at Ubisoft, Shanghai}}\\
+{\small Sept. 2019 -- Present}&{\textcolor{blue}{\textbf{Lead Software engineer} at Ubisoft, Shanghai}}\\
 &\tabitem Cross-project tools team creation (recruitment, coordination with the projects leads...).\\
 &\tabitem Lead developer and reviewer on key subjects on various tools and languages.\\
 &\tabitem Project management with local and worldwide teams.\\
 &\tabitem Products design and specification.\\
 &\tabitem Team management {\scriptsize( CN, EN)}.\\
-&\tabitem Open (Inner) sourcing \& Agile advocate.
+&\tabitem \textcolor{blue}{Main outcome}: Improved \& shared Dev-ops, Innersource and Agile practices across projects.
 \vspace{6px}
 \\
 {\small Apr. 2017 -- Oct. 2019}&{\textbf{Tools developer + Game Designer} at Ubisoft, Shanghai}\\
 &\tabitem Main team developer on automation and tooling for multiple AAA projects.\\
 &\tabitem Development and design of production tools, quality control, and testing of designed features.\\
-&\tabitem Responsible for design and setup of key features (Far Cry 5 companions)
+&\tabitem Responsible for design and setup of key features (Far Cry 5 companions)\\
+&\tabitem \textcolor{blue}{Main outcome}: Tech improvements, automation and stability.
 \vspace{6px}
 \\
 {\small Dec. 2014 -- Mar. 2017}&{\textbf{Software engineer, Architect} at Optiflows, Paris}\\
-&\tabitem Full stack engineer \& architect (Python + Angular) on a mass alerting and notification cloud service\\
-&\tabitem Scrum master
+&\tabitem Full stack engineer \& architect on a mass alerting notification cloud service\\
+&\tabitem Scrum master\\
+&\tabitem \textcolor{blue}{Main outcome}: Fast prototyping, Team Organisation (Sprint, T.B., ...).
 \vspace{6px}
 \\
 {\small Aug. 2012 -- Sep. 2014}&{\textbf{Software engineer} at Work4 , Paris}\\
-&\tabitem Matching algorithms integration for a facebook job-board\\
-&\tabitem Asynchronous system setup.
+&\tabitem Matching algorithms integration for a Facebook job-board\\
+&\tabitem Asynchronous system setup.\\
+&\tabitem \textcolor{blue}{Main outcome}: New features development and review, Social-Committee contribution.
 \end{tabular}
-\\[20pt]
+\\[14pt]
 
 
-\section*{Highlighted projects}
+\section*{Projects highlights}
 \begin{tabular}{L!{\VRule}R}
 
 {\includegraphics[width=8pt]{images/python.png} Python, \includegraphics[width=8pt]{images/angular.png} Angular}&{\textbf{Production tools}}\\
@@ -103,38 +107,35 @@
 {\includegraphics[width=8pt]{images/django.png} Django}&{\textbf{Thanks for the feedback} \small \url{tftf.eu}}\\
 &\tabitem Open source web service to gather personal feedback\\
 {see more}&{\includegraphics[width=8pt]{images/github.png} \url{https://github.com/lerignoux}}\\
-& python, git, agile, linux, docker, mongo, postgres, P4, elastic, Django, AWS, G-cloud, Atlassian, rust, node-js, golang, security, networking ...
+& python, git, agile, linux, docker, mongo, postgres, P4, elastic, django, AWS, G-cloud, Atlassian, rust, node-js, golang, security, networking ...
 \end{tabular}
 
 
 \begin{minipage}[ht]{0.49\textwidth}
 
-\vspace{20pt}
+\vspace{14pt}
 \hspace{60pt}
 \begin{tikzpicture}
  \tikzstyle{every node}=[font=\scriptsize]
-  \node at (0.0,1.6) {\small\textbf{\textcolor{blue}{Ideal activity repartition}}};
+  \node at (0.0,2) {\small\textbf{Reasons for this graph}};
   \pie[text = inside,
     explode = 0.02,
-    radius = 1.4,
-    rotate=345,
+    radius = 1.6,
+    rotate=5,
     hide number,
     style={lines},
     color = {
       blue,
-      green,
       orange,
-      yellow,
-      grey,
+      green,
     }]{
-      41.0/Dev,
-      25.0/Review,
-      22.0/Mgmt,
-      12.0/Product
+      34.0/Play\\ with Latex,
+      52.0/\space\\\\\\Memorable\\ resume,
+      14.0/\space\\Because\\ I can
     }
 \end{tikzpicture}
 
-\vspace{10pt}
+\vspace{5pt}
 
 \section*{Education}
 
@@ -150,7 +151,7 @@
 \end{tabular}
 \end{minipage}
 \begin{minipage}[ht]{0.49\textwidth}
-\vspace{20pt}
+\vspace{30pt}
 
 \section*{Languages}
 \begin{tabular}{L!{\VRule}R}
@@ -158,7 +159,7 @@
 {English}&Fluent (TOEFL)\\[4pt]
 {Chinese}&{Proficient (HSK 5)}\\[4pt]
 \end{tabular}
-\\[20pt]
+\\[34pt]
 
 \section*{Misc.}
 \begin{tabular}{L!{\VRule}R}
@@ -166,9 +167,12 @@
 &{Hackathons \& Game Jam}\\[4pt]
 {Assoc.}&{Ubisoft Green committee}\\
 &{ParisTech Chinese association}\\
-&{Telecom Etude: \small Junior entreprise}\\[4pt]
+&{Telecom Etude: \small Junior enterprise}\\[4pt]
 {Travels}&{2 years studies in China. NGO mission}\\[4pt]
 {Hobbies}&{Tennis, Piano, Dance, Open Source, Travel, Video Games, Jeet Kun Do}\\
 \end{tabular}
+\\[14pt]
 \end{minipage}
+
+\center References available upon request.
 \end{document}
