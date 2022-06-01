@@ -3,7 +3,7 @@
 Personal github pages
 
 ## Release:
-push a tag:
+Just push a tag:
 ```
 git tag 2099.01
 git push --tags
