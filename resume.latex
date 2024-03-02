@@ -65,32 +65,34 @@
 
 \section*{Experiences}
 \begin{tabular}{L!{\VRule}R}
-{\small Sept. 2019 -- Present}&{\textcolor{blue}{\textbf{Lead Software engineer} at Ubisoft, Shanghai}}\\
-&\tabitem Cross-project tools team creation (recruitment, coordination with the projects leads...).\\
+{\small Sept. 2023 -- Present}&{\textcolor{blue}{\textbf{Lead Software engineer} at Ubisoft}}\\
+&\tabitem Tech lead one the global generative Ai platform project.\\
+&\tabitem Generative Ai services and Web platform architecture and development.\\
+&\tabitem Chinese team management {\scriptsize( CN, EN)}.\\
+&\tabitem \textcolor{blue}{Main outcome}: CI-CD and environments setup, Complex (Memory \& Async) debugging.
+\vspace{6px}
+\\
+{\small Sept. 2019 -- Sept. 2023}&{\textbf{Lead Software engineer} at Ubisoft, Shanghai}\\
+&\tabitem Cross-project tools team creation and management (recruitment, sync with the projects leads, {\scriptsize CN, EN}).\\
 &\tabitem Lead developer and reviewer on key subjects on various tools and languages.\\
-&\tabitem Project management with local and worldwide teams.\\
-&\tabitem Products design and specification.\\
-&\tabitem Team management {\scriptsize( CN, EN)}.\\
+&\tabitem Project \& Product management with local and worldwide teams.\\
 &\tabitem \textcolor{blue}{Main outcome}: Improved \& shared Dev-ops, Innersource and Agile practices across projects.
 \vspace{6px}
 \\
 {\small Apr. 2017 -- Oct. 2019}&{\textbf{Tools developer + Game Designer} at Ubisoft, Shanghai}\\
-&\tabitem Main team developer on automation and tooling for multiple AAA projects.\\
-&\tabitem Development and design of production tools, quality control, and testing of designed features.\\
+&\tabitem Development and design of production and automation tooling for AAA testing.\\
 &\tabitem Responsible for design and setup of key features (Far Cry 5 companions)\\
-&\tabitem \textcolor{blue}{Main outcome}: Tech improvements, automation and stability.
+&\tabitem \textcolor{blue}{Main outcome}: Tech improvements, automation of production.
 \vspace{6px}
 \\
 {\small Dec. 2014 -- Mar. 2017}&{\textbf{Software engineer, Architect} at Optiflows, Paris}\\
 &\tabitem Full stack engineer \& architect on a mass alerting notification cloud service\\
-&\tabitem Scrum master\\
-&\tabitem \textcolor{blue}{Main outcome}: Fast prototyping, Team Organisation (Sprint, T.B., ...).
+&\tabitem \textcolor{blue}{Main outcome}: Fast prototyping, Team Organisation (Scrum master).
 \vspace{6px}
 \\
 {\small Aug. 2012 -- Sep. 2014}&{\textbf{Software engineer} at Work4 , Paris}\\
 &\tabitem Matching algorithms integration for a Facebook job-board\\
-&\tabitem Asynchronous system setup.\\
-&\tabitem \textcolor{blue}{Main outcome}: New features development and review, Social-Committee contribution.
+&\tabitem \textcolor{blue}{Main outcome}: Asynchronous system setup, Social-Committee contribution.
 \end{tabular}
 \\[14pt]
 
@@ -98,16 +100,16 @@
 \section*{Projects highlights}
 \begin{tabular}{L!{\VRule}R}
 
-{\includegraphics[width=8pt]{images/python.png} Python, \includegraphics[width=8pt]{images/angular.png} Angular}&{\textbf{Production tools}}\\
-&\tabitem A dockerized set of services providing a streamlined animal production process\\
-&\tabitem Production planning, Automatic documentation ...\\
+{\includegraphics[width=8pt]{images/python.png} Python, \includegraphics[width=8pt]{images/vuejs.png} Vue js}&{\textbf{Ubisoft Gen. Ai platform}}\\
+&\tabitem Ubisoft online image and text generative Ai platform\\
+&\tabitem Industrialization, stabilisation and evolution of the R\&D department prototype.\\
 {\includegraphics[width=9pt]{images/Csharp.png} C\#, \includegraphics[width=8pt]{images/cpp.png} C++, }&{\textbf{Automatic testing}}\\
 &\tabitem Multiple automatic testing solution for AAA games.\\
-&\tabitem Bug detection, recording \& reporting (small Emailing + ELK).\\
+&\tabitem Bug detection, recording \& reporting.\\
 {\includegraphics[width=8pt]{images/django.png} Django}&{\textbf{Thanks for the feedback} \small \url{tftf.eu}}\\
 &\tabitem Open source web service to gather personal feedback\\
 {see more}&{\includegraphics[width=8pt]{images/github.png} \url{https://github.com/lerignoux}}\\
-& python, git, agile, linux, docker, mongo, postgres, P4, elastic, django, AWS, G-cloud, Atlassian, rust, node-js, golang, security, networking ...
+& python, git, agile, diffusers, docker, linux, kubernetes, mongo, postgres, P4, elastic, django, AWS, G-cloud, Atlassian, rust, node-js, security, networking ...
 \end{tabular}
 
 
@@ -129,7 +131,7 @@
       orange,
       green,
     }]{
-      34.0/Play\\ with Latex,
+      34.0/Play\\ with graphs,
       52.0/\space\\\\\\Memorable\\ resume,
       14.0/\space\\Because\\ I can
     }
@@ -145,7 +147,6 @@
 &\tabitem Information security\\
 &\tabitem Artificial intelligence\\[4pt]
 {2011-12}&{Shanghai JiaoTong university \begin{CJK}{UTF8}{gbsn}上海交通大学\end{CJK}}\\[4pt]
-{2010-11}&{BLCU \begin{CJK}{UTF8}{gbsn}北京语言大学\end{CJK}}\\[4pt]
 {2006-08}&{Preparatory class Janson De Sailly, Paris}\\[4pt]
 {2006}&{French Baccalaureate (Tres Bien, \textasciitilde A)}\\
 \end{tabular}
@@ -168,8 +169,7 @@
 {Assoc.}&{Ubisoft Green committee}\\
 &{ParisTech Chinese association}\\
 &{Telecom Etude: \small Junior enterprise}\\[4pt]
-{Travels}&{2 years studies in China. NGO mission}\\[4pt]
-{Hobbies}&{Tennis, Piano, Dance, Open Source, Travel, Video Games, Jeet Kun Do}\\
+{Hobbies}&{Gardening, Tennis, Piano, Open Source, Travel, Video Games, Jeet Kun Do}\\
 \end{tabular}
 \\[14pt]
 \end{minipage}
